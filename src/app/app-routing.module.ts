@@ -20,5 +20,6 @@ const routes: Routes = [
   exports: [ RouterModule ]
 })
 export class AppRoutingModule {
-  static components = [ CustomersComponent, CustomerEditComponent, CustomerEditReactiveComponent, CustomersGridComponent ];
+  static components = [ CustomersComponent, CustomerEditComponent, 
+    CustomerEditReactiveComponent, CustomersGridComponent ];
 }
